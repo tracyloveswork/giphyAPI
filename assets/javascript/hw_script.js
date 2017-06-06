@@ -53,7 +53,7 @@ function displayGifs() {
 	// Get topic name from button
 	var topic = $(this).attr("data-name");
 	// Build url to use in query to API
-	var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + topic + "&api_key=dc6zaTOxFJmzC&limit=10";
+	var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + topic + "&api_key=dc6zaTOxFJmzC&limit=10";
 
 	// Clear old Gifs
 	$("#gifImages").empty();
