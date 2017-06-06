@@ -1,0 +1,17 @@
+.topics {
+
+	margin:5px;
+
+}
+
+.giffy {
+
+	float:left;
+	margin:20px 10px 10px 10px;
+
+}
+
+body {
+
+	background: url('../images/halftone.png');
+}
